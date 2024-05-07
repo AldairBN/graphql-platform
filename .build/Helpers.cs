@@ -1,19 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using Nuke.Common.Tooling;
-using Nuke.Common.Tools.DotNet;
-
-class Helpers
-{
-    static readonly string[] _directories = new string[]
-    {
-        "GreenDonut",
-        // Path.Combine("HotChocolate", "ApolloFederation"),
-        Path.Combine("HotChocolate", "AspNetCore"),
-        Path.Combine("HotChocolate", "Core"),
-        Path.Combine("HotChocolate", "Language"),
+("HotChocolate", "Language"),
         Path.Combine("HotChocolate", "PersistedQueries"),
         Path.Combine("HotChocolate", "Utilities"),
         Path.Combine("HotChocolate", "Data"),
