@@ -1,36 +1,5 @@
 //using System;
-//using System.Collections.Generic;
-//using System.Threading.Tasks;
-//using Xunit;
-
-//namespace GreenDonut
-//{
-//    public class TaskCompletionBufferTests
-//    {
-//        [Fact(DisplayName = "Constructor: Should not throw any exception")]
-//        public void ConstructorNoException()
-//        {
-//            // act
-//            Action verify = () => new TaskCompletionBuffer<string, string>();
-
-//            // assert
-//            Assert.Null(Record.Exception(verify));
-//        }
-
-//        [Fact(DisplayName = "IsEmpty: Should return true")]
-//        public void IsEmptyTrue()
-//        {
-//            // arrange
-//            var buffer = new TaskCompletionBuffer<string, string>();
-
-//            // act
-//            var result = buffer.IsEmpty;
-
-//            // assert
-//            Assert.True(result);
-//        }
-
-//        [Fact(DisplayName = "IsEmpty: Should return false")]
+//using "IsEmpty: Should return false")]
 //        public void IsEmptyFalse()
 //        {
 //            // arrange
