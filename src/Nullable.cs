@@ -1,10 +1,8 @@
 #pragma warning disable MA0048 // File name must match type name
 #define INTERNAL_NULLABLE_ATTRIBUTES
-
-
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
-// See the LICENSE file in the project root for more information.
+// See the LICENSE file in the project root  more information.
 // This code was copied from https://raw.githubusercontent.com/dotnet/corefx/48363ac826ccf66fbe31a5dcb1dc2aab9a7dd768/src/Common/src/CoreLib/System/Diagnostics/CodeAnalysis/NullableAttributes.cs
 
 
@@ -17,25 +15,6 @@
     public
 #endif
         sealed class AllowNullAttribute : Attribute { }
-
-    /// <summary>Specifies that null is disallowed as an input even if the corresponding type allows it.</summary>
-    [AttributeUsage(.Field | AttributeTargets.Parameter | AttributeTargets.Property, Inherited = false)]
-#if INTERNAL_NULLABLE_ATTRIBUTES
-    internal
-#else
-    public
-#endif
-        sealed class DisallowNullAttribute : Attribute { }
-
-    /// <summary>Specifies that an output may be null even if the corresponding type disallows it.</summary>
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.Property | AttributeTargets.ReturnValue, Inherited = false)]
-#if INTERNAL_NULLABLE_ATTRIBUTES
-    internal
-#else
-    public
-#endif
-        sealed class MaybeNullAttribute : Attribute { }
-
     /// <summary>Specifies that an output will not be null even if the corresponding type allows it.</summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.Property | AttributeTargets.ReturnValue, Inherited = false)]
 #if INTERNAL_NULLABLE_ATTRIBUTES
