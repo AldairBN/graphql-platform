@@ -10,7 +10,7 @@
 namespace System.Diagnostics.CodeAnalysis
 {
     /// <summary>Specifies that null is allowed as an input even if the corresponding type disallows it.</summary>
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.Property, Inherited = false)]
+    [AttributeUsage(.Field | AttributeTargets.Parameter | AttributeTargets.Property, Inherited = false)]
 #if INTERNAL_NULLABLE_ATTRIBUTES
     internal
 #else
@@ -19,7 +19,7 @@ namespace System.Diagnostics.CodeAnalysis
         sealed class AllowNullAttribute : Attribute { }
 
     /// <summary>Specifies that null is disallowed as an input even if the corresponding type allows it.</summary>
-    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.Property, Inherited = false)]
+    [AttributeUsage(.Field | AttributeTargets.Parameter | AttributeTargets.Property, Inherited = false)]
 #if INTERNAL_NULLABLE_ATTRIBUTES
     internal
 #else
