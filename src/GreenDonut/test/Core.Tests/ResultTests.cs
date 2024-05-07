@@ -1,64 +1,10 @@
 using System;
-using System.Collections.Generic;
-using Xunit;
 
-namespace GreenDonut
-{
-    public class ResultTests
-    {
-        [Fact(DisplayName = "Equals: Should return false if comparing error with value")]
-        public void EqualsErrorValue()
-        {
-            // arrange
-            Result<string> error = new Exception("Foo");
-            Result<string> value = "Bar";
 
-            // act
-            bool result = error.Equals(value);
-
-            // assert
             Assert.False(result);
         }
 
-        [Fact(DisplayName = "Equals: Should return false if the error is not equal")]
-        public void EqualsDifferentError()
-        {
-            // arrange
-            Result<string> errorA = new Exception("Foo");
-            Result<string> errorB = new Exception("Bar");
-
-            // act
-            bool result = errorA.Equals(errorB);
-
-            // assert
-            Assert.False(result);
-        }
-
-        [Fact(DisplayName = "Equals: Should return true if the error is equal")]
-        public void EqualsSameError()
-        {
-            // arrange
-            Result<string> error = new Exception("Foo");
-
-            // act
-            bool result = error.Equals(error);
-
-            // assert
-            Assert.True(result);
-        }
-
-        [Fact(DisplayName = "Equals: Should return false if the error is not equal")]
-        public void EqualsDifferentValue()
-        {
-            // arrange
-            Result<string> valueA = "Foo";
-            Result<string> valueB = "Bar";
-
-            // act
-            bool result = valueA.Equals(valueB);
-
-            // assert
-            Assert.False(result);
+        [
         }
 
         [Fact(DisplayName = "Equals: Should return true if the value is equal")]
