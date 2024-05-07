@@ -1,36 +1,7 @@
 ![ChilliCream GraphQL Platform](https://chillicream.com/resources/chillicream-graphql-banner.svg)
 
 [![NuGet Package](https://img.shields.io/nuget/v/hotchocolate.svg)](https://www.nuget.org/packages/HotChocolate/) 
-[![License](https://img.shields.io/github/license/ChilliCream/hotchocolate.svg)](https://github.com/ChilliCream/hotchocolate/blob/main/LICENSE) 
-[![Azure DevOps tests](https://img.shields.io/azure-devops/tests/chillicream/HotChocolate/70.svg)](https://chillicream.visualstudio.com/HotChocolate/_build?definitionId=70) 
-[![Coverage Status](https://sonarcloud.io/api/project_badges/measure?project=HotChocolate&metric=coverage)](https://sonarcloud.io/dashboard?id=HotChocolate) 
-[![Slack channel](https://img.shields.io/badge/join%20the%20community-on%20slack-blue.svg)](https://join.slack.com/t/hotchocolategraphql/shared_invite/zt-lqkb8z7b-aFepT0Qrsgv5_yKy0yoyzw) 
-[![Twitter](https://img.shields.io/badge/join%20us-on%20twitter-green.svg)](https://twitter.com/chilli_cream)
-
----
-
-# ChilliCream GraphQL Platform
-
-The ChilliCream GraphQL Platform, at its core, is a new way to create powerful Backends. HotChocolate, our GraphQL server, connects any service or data source and creates a cohesive service to offer your consumers a unified API.
-
-![ChilliCream GraphQL Platform](https://chillicream.com/resources/chillicream-graphql-platform.svg)
-
-## Product Overview
-
-### Banana Cake Pop
-
-Our GraphQL IDE to explore, request and analyze any GraphQL endpoint.
-
-[Readme](src/BananaCakePop)
-
-### Green Donut
-
-Our DataLoader to solve the N+1 problem.
-
-[Readme](src/GreenDonut)
-
-### Hot Chocolate
-
+[![
 Our GraphQL server to create GraphQL endpoints and merge schemas.
 
 [Readme](src/HotChocolate)
