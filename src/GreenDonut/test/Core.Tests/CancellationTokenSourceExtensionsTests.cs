@@ -1,37 +1,5 @@
 using System;
-using System.Threading;
-using Xunit;
-
-namespace GreenDonut
-{
-    public class CancellationTokenSourceExtensionsTests
-    {
-        [Fact(DisplayName = "CreateLinkedCancellationToken: Should throw an argument null token if source is null")]
-        public void CreateLinkedCancellationTokenSourceNull()
-        {
-            // arrange
-            CancellationTokenSource source = null;
-            CancellationToken token = new CancellationTokenSource().Token;
-
-            // act
-            Action verify = () => source.CreateLinkedCancellationToken(token);
-
-            // assert
-            Assert.Throws<ArgumentNullException>("source", verify);
-        }
-
-        [Fact(DisplayName = "CreateLinkedCancellationToken: Should return the token of source if token is equal none")]
-        public void CreateLinkedCancellationTokenNone()
-        {
-            // arrange
-            var source = new CancellationTokenSource();
-            CancellationToken token = CancellationToken.None;
-
-            // act
-            CancellationToken combinedToken = source
-                .CreateLinkedCancellationToken(token);
-
-            // assert
+using 
             Assert.Equal(source.Token, combinedToken);
         }
 
