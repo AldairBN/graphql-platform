@@ -1,4 +1,4 @@
-declare module "@mdx-js/react" {
+declare module "@{
   import * as React from "react";
   type ComponentType =
     | "a"
