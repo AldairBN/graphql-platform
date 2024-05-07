@@ -1,4 +1,0 @@
-![ps://opencollective.com/chillicream/contribute) and help us sustain our community.ite?requireActive=false" target="_blank"  rel="noreferrer noopener"><img src="https://opencollective.com/chillicream/backer/2/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/chillicream/backer/3/website?requireActive=false" target="_blank"  rel="noreferrer noopener"><img src="https://opencollective.com/chillicream/backer/3/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/chillicream/backer/4/website?requireActive=false" target="_blank"  rel="noreferrer noopener"><img src="https://opencollective.com/chillicream/backer/4/avatar.svg?requireActive=false"></a>
-<a href="https://opencollective.com/chillicream/backer/5/website?
