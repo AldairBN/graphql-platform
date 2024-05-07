@@ -1,36 +1,4 @@
-![ChilliCream GraphQL Platform](https://chillicream.com/resources/chillicream-graphql-banner.svg)
-
-[![NuGet Package](https://img.shields.io/nuget/v/hotchocolate.svg)](https://www.nuget.org/packages/HotChocolate/) 
-[![
-Our GraphQL server to create GraphQL endpoints and merge schemas.
-
-[Readme](src/HotChocolate)
-
-### Marshmellow Pie
-
-Our schema registry for any GraphQL client and server.
-
-[Readme](src/MarshmallowPie)
-
-### Strawberry Shake
-
-Our GraphQL client to fetch data from any GraphQL endpoint.
-
-[Readme](src/StrawberryShake)
-
-## Official Examples
-
-Examples of things built on top of the ChilliCream GraphQL Platform that are open source and can be explored by others.
-
-- [GraphQL workshop](https://github.com/ChilliCream/graphql-workshop)
-
-## From our community
-
-[Check out](COMMUNITY.md) what members of our awesome community have made!
-
-## Financial Contributors
-
-[Become a financial contributor](https://opencollective.com/chillicream/contribute) and help us sustain our community.
+![ps://opencollective.com/chillicream/contribute) and help us sustain our community.
 
 ### Sponsor
 
